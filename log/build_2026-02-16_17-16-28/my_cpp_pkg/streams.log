@@ -1,0 +1,52 @@
+[0.009s] Invoking command in '/home/sparku/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/sparku/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/sparku/ros2_ws/install/my_cpp_pkg
+[0.148s] -- The C compiler identification is GNU 13.3.0
+[0.430s] -- The CXX compiler identification is GNU 13.3.0
+[0.643s] -- Detecting C compiler ABI info
+[0.749s] -- Detecting C compiler ABI info - done
+[0.754s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.754s] -- Detecting C compile features
+[0.754s] -- Detecting C compile features - done
+[0.790s] -- Detecting CXX compiler ABI info
+[0.900s] -- Detecting CXX compiler ABI info - done
+[0.904s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.904s] -- Detecting CXX compile features
+[0.905s] -- Detecting CXX compile features - done
+[0.925s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.003s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.081s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.170s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.182s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.199s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.215s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.284s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.288s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.352s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.417s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.455s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.554s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.617s] -- Added test 'lint_cmake' to check CMake code style
+[1.618s] -- Added test 'xmllint' to check XML markup files
+[1.620s] -- Configuring done (1.6s)
+[1.623s] -- Generating done (0.0s)
+[1.624s] -- Build files have been written to: /home/sparku/ros2_ws/build/my_cpp_pkg
+[1.628s] Invoked command in '/home/sparku/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/sparku/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/sparku/ros2_ws/install/my_cpp_pkg
+[1.629s] Invoking command in '/home/sparku/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/sparku/ros2_ws/build/my_cpp_pkg -- -j24 -l24
+[1.649s] Invoked command in '/home/sparku/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/sparku/ros2_ws/build/my_cpp_pkg -- -j24 -l24
+[1.654s] Invoking command in '/home/sparku/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/sparku/ros2_ws/build/my_cpp_pkg
+[1.658s] -- Install configuration: ""
+[1.658s] -- Installing: /home/sparku/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[1.659s] -- Installing: /home/sparku/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[1.659s] -- Installing: /home/sparku/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[1.659s] -- Installing: /home/sparku/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[1.659s] -- Installing: /home/sparku/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[1.659s] -- Installing: /home/sparku/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[1.659s] -- Installing: /home/sparku/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[1.659s] -- Installing: /home/sparku/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[1.659s] -- Installing: /home/sparku/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[1.659s] -- Installing: /home/sparku/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[1.659s] -- Installing: /home/sparku/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[1.660s] -- Installing: /home/sparku/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[1.660s] -- Installing: /home/sparku/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[1.660s] -- Installing: /home/sparku/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[1.660s] -- Installing: /home/sparku/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[1.661s] Invoked command in '/home/sparku/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/sparku/ros2_ws/build/my_cpp_pkg
